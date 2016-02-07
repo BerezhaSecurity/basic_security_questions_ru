@@ -94,28 +94,14 @@ select * from *;
 <li type="a">Эксплоит составляет полезный груз, шеллкод используется для доставки полезного груза.
 </ul>
 
-<li type=1>Какова разница между шифрованием файлов и Full Disk Encryption (FDE)?
-<ul>
-<li type="a">
-<li type="a">
-<li type="a">
-<li type="a">
-</ul>
-
 <li type=1>Какой принцип должен быть реализован в завершение цепочки правил межсетевого экрана?
 <ul>
-<li type="a">
-<li type="a">
-<li type="a">
-<li type="a">
+<li type="a">Implicit Allow
+<li type="a">Explicit Deny
+<li type="a">Implicit Deny
+<li type="a">Explicit Allow
 </ul>
 
 <li type=1>Какие принципы защищенной архитектуры вы знаете?
-<ul>
-<li type="a">
-<li type="a">
-<li type="a">
-<li type="a">
-</ul>
 
 <li type=1>Напишите скрипт на shell, выполнив которы на любой Linux-машине можно пручить список активных хостов в присоединенной сети класса C.
