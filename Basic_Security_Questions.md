@@ -2,11 +2,9 @@
 ==============================================
 
 1. Что это и где это можно увидеть?
-
 ~~~~~~~~~~~
 RnJlZDpwNDU1MTIzNA==
 ~~~~~~~~~~~
-
 ~~~~~~~~~~~
 $6$8BxedHgytw0E6oTe$khJsZIJUZmiPpFpbDaJBhJrEp1DFyUDDrhkvuIHzb6sPPKiHrjBdINZe3sSb/y0wOpY4NICyGd5tXHhX3E.Z70
 ~~~~~~~~~~~
