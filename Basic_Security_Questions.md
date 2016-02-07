@@ -9,7 +9,7 @@ RnJlZDpwNDU1MTIzNA==
   <li type="a">Хеш MD5 из файла /etc/passwd
   <li type="a">Хеш MD5 из файла /etc/shadow
   <li type="a">Строка Base64 из HTTP-сессии
-  <li type="a">Строка Base32 из HTTP cookie
+  <li type="a">Строка Base64 из HTTP cookie
   </ul>
 
 <li type=1>Что это и где это можно увидеть?
@@ -19,16 +19,16 @@ $6$8BxedHgytw0E6oTe$khJsZIJUZmiPpFpbDaJBhJrEp1DFyUDDrhkvuIHzb6sPPKiHrjBdINZe3sSb
   <ul>
   <li type="a">Хеш MD5 без соли из файла /etc/passwd
   <li type="a">Хеш MD5 с солью из файлв /etc/shadow
-  <li type="a">Хеш SHA1 без соли из файла /etc/passwd
-  <li type="a">Хеш SHA1 с солью из файла /etc/shadow
+  <li type="a">Хеш SHA1 без соли из файла /etc/shadow
+  <li type="a">Хеш SHA512 с солью из файла /etc/shadow
   </ul>
 
 <li type=1>Назовите пять способов подсоединиться к TCP портам 80 или 443.
 <ul>
-<li type="a">ncat localhost:80; nc localhost 80; ncat --ssl localhost:443; openssl s_client localhost:443
-<li type="a">ncat localhost 80; nc localhost 80; ncat --ssl localhost 443; openssl s_client localhost 443
-<li type="a">ncat localhost 80; nc localhost 80; ncat --ssl localhost 443; openssl s_client -connect localhost:443
-<li type="a">ncat localhost:80; nc localhost:80; ncat --ssl localhost:443; openssl s_client localhost:443
+<li type="a">ncat localhost:80; nc localhost 80; echo /dev/tcp/localhost/80; ncat --ssl localhost:443; openssl s_client localhost:443
+<li type="a">ncat localhost 80; nc localhost 80; cat /dev/tcp/localhost/80; ncat --ssl localhost 443; openssl s_client localhost 443
+<li type="a">ncat localhost 80; nc localhost 80; echo >/dev/tcp/localhost/80; ncat --ssl localhost 443; openssl s_client -connect localhost:443
+<li type="a">ncat localhost:80; nc localhost:80; echo >>/dev/tcp/localhost/80; ncat --ssl localhost:443; openssl s_client localhost:443
 </ul>
 
 <li type=1>Какова принципиальная разница между симметричным и асимметричным шифрованием?
