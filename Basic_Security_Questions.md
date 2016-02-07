@@ -17,50 +17,51 @@ RnJlZDpwNDU1MTIzNA==
 $6$8BxedHgytw0E6oTe$khJsZIJUZmiPpFpbDaJBhJrEp1DFyUDDrhkvuIHzb6sPPKiHrjBdINZe3sSb/y0wOpY4NICyGd5tXHhX3E.Z70
 ~~~
   <ul>
-  <li type="a">
-  <li type="a">
-  <li type="a">
-  <li type="a">
+  <li type="a">Хеш MD5 без соли из файла /etc/passwd
+  <li type="a">Хеш MD5 с солью из файлв /etc/shadow
+  <li type="a">Хеш SHA1 без соли из файла /etc/passwd
+  <li type="a">Хеш SHA1 с солью из файла /etc/shadow
   </ul>
 
 <li type=1>Назовите пять способов подсоединиться к TCP портам 80 или 443.
 <ul>
-<li type="a">
-<li type="a">
-<li type="a">
-<li type="a">
+<li type="a">ncat localhost:80; nc localhost 80; ncat --ssl localhost:443; openssl s_client localhost:443
+<li type="a">ncat localhost 80; nc localhost 80; ncat --ssl localhost 443; openssl s_client localhost 443
+<li type="a">ncat localhost 80; nc localhost 80; ncat --ssl localhost 443; openssl s_client -connect localhost:443
+<li type="a">ncat localhost:80; nc localhost:80; ncat --ssl localhost:443; openssl s_client localhost:443
 </ul>
 
 <li type=1>Какова принципиальная разница между симметричным и асимметричным шифрованием?
 <ul>
-<li type="a">
-<li type="a">
-<li type="a">
-<li type="a">
+<li type="a">Участники симметричного шифрования используют разделяемый ключ, участники асимметричного шифрования знают закрытые ключи друг друга.
+<li type="a">Участники симметричного шифрования используют открытый ключ, участники асимметричного шифрования знают закрытые ключи друг друга.
+<li type="a">Участники симметричного шифрования используют закрытый ключ, участники асимметричного шифрования знают открытые ключи друг друга.
+<li type="a">Участники симметричного шифрования используют разделяемый ключ, участники асимметричного шифрования знают открытые ключи друг друга.
 </ul>
 
 <li type=1>Возможно ли перехватить, просмотреть или модифицировать HTTPS трафик?
 <ul>
-<li type="a">
-<li type="a">
-<li type="a">
-<li type="a">
+<li type="a">Возможно перехватить, но невозможно просмотреть или модифицировать.
+<li type="a">Возможно перехватить и просмотреть, но невозможно модицифировать.
+<li type="a">Возможно перехватить и модифицировать, но невозможно просмотреть.
+<li type="a">Возможно перехватить, просмотреть и модифицировать.
 </ul>
 
 <li type=1>Что такое MITM атака?
 <ul>
-<li type="a">
-<li type="a">
-<li type="a">
-<li type="a">
+<li type="a">Атака, в которой клиент общается с фальшивым сервером.
+<li type="a">Атака, в которой сервер общается с фальшивым клиентом.
+<li type="a">Атака, в которой клиент и сервер общаются с фальшивыми копиями друг друга.
+<li type="a">Все варианты правильные.
+<li type="a">Правильные варианты a. и b.
 </ul>
 
 <li type=1>Каковы возможные последствия атаки Cross-Site Scripting?
 <ul>
-<li type="a">
-<li type="a">
-<li type="a">
-<li type="a">
+<li type="a">Удаленный доступ к серверу.
+<li type="a">Удаленный доступ к клиенту.
+<li type="a">Перехват серверной сессии.
+<li type="a">Перехват клиентской сессии.
 </ul>
 
 <li type=1>Что здесь неправильно?
@@ -68,10 +69,10 @@ $6$8BxedHgytw0E6oTe$khJsZIJUZmiPpFpbDaJBhJrEp1DFyUDDrhkvuIHzb6sPPKiHrjBdINZe3sSb
 select * from *;
 ~~~
 <ul>
-<li type="a">
-<li type="a">
-<li type="a">
-<li type="a">
+<li type="a">Вместо первой звездочки нужно подставить имя поля.
+<li type="a">Вместо второй звездочки нужно подставить имя таблицы.
+<li type="a">Оба варианта правильные.
+<li type="a">Оба варианта неправильные.
 </ul>
 
 <li type=1>Что это такое?
@@ -79,21 +80,21 @@ select * from *;
 <?$_="";$_[+""]='';$_="$_"."";$_=($_[+""]|"").($_[+""]|"").($_[+""]^"");?><?=${'_'.$_}['_'](${'_'.$_}['__']);?>
 ~~~
 <ul>
-<li type="a">
-<li type="a">
-<li type="a">
-<li type="a">
+<li type="a">Отладочная строка C++.
+<li type="a">Программный код на Perl.
+<li type="a">Бекдор на PHP.
+<li type="a">Бекдор на LUA.
 </ul>
 
 <li type=1>Какова разница между эксплоитом и шеллкодом?
 <ul>
-<li type="a">
-<li type="a">
-<li type="a">
-<li type="a">
+<li type="a">Эксплоит используется для передачи жертве полезного груза, шеллкод осуществляет атаку на жертву.
+<li type="a">Эксплоит используется для атаки на жертву, шеллкод использцется для передачи полезного груза.
+<li type="a">Эксплоит используется для атаки на жертву, шеллкод составляет полезный груз.
+<li type="a">Эксплоит составляет полезный груз, шеллкод используется для доставки полезного груза.
 </ul>
 
-<li type=1>Какова разница между шифрованием файлов и Full Disk Encryption?
+<li type=1>Какова разница между шифрованием файлов и Full Disk Encryption (FDE)?
 <ul>
 <li type="a">
 <li type="a">
