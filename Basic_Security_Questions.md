@@ -1,13 +1,14 @@
 ## Базовые вопросы по информационной безопасности
 
-1. Что это и где это можно увидеть?
+### 1. Что это и где это можно увидеть?
 ~~~ ruby
 RnJlZDpwNDU1MTIzNA==
 ~~~
-  1. Хеш MD5 из файла /etc/passwd
-  - Хеш MD5 из файла /etc/shadow
-  - Строка Base64 из HTTP-сессии
-  - Строка Base32 из HTTP cookie
+a) Хеш MD5 из файла /etc/passwd
+b) Хеш MD5 из файла /etc/shadow
+c) Строка Base64 из HTTP-сессии
+d) Строка Base32 из HTTP cookie
+
 - Что это и где это можно увидеть?
 ~~~ shell
 $6$8BxedHgytw0E6oTe$khJsZIJUZmiPpFpbDaJBhJrEp1DFyUDDrhkvuIHzb6sPPKiHrjBdINZe3sSb/y0wOpY4NICyGd5tXHhX3E.Z70
