@@ -9,7 +9,7 @@ b) Хеш MD5 из файла /etc/shadow
 c) Строка Base64 из HTTP-сессии
 d) Строка Base32 из HTTP cookie
 
-- Что это и где это можно увидеть?
+### 2. Что это и где это можно увидеть?
 ~~~ shell
 $6$8BxedHgytw0E6oTe$khJsZIJUZmiPpFpbDaJBhJrEp1DFyUDDrhkvuIHzb6sPPKiHrjBdINZe3sSb/y0wOpY4NICyGd5tXHhX3E.Z70
 ~~~
