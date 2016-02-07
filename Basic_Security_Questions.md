@@ -11,6 +11,7 @@ RnJlZDpwNDU1MTIzNA==
   <li type="a">Строка Base64 из HTTP-сессии
   <li type="a">Строка Base32 из HTTP cookie
   </ul>
+
 <li type=1>Что это и где это можно увидеть?
 ~~~ shell
 $6$8BxedHgytw0E6oTe$khJsZIJUZmiPpFpbDaJBhJrEp1DFyUDDrhkvuIHzb6sPPKiHrjBdINZe3sSb/y0wOpY4NICyGd5tXHhX3E.Z70
